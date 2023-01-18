@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-color: rgb(28, 16, 43);
+    border-radius: 10px;
+}
+
+.login-signup{
+    display: flex;
+    justify-content: space-between;
+}
