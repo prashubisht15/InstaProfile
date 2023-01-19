@@ -31,13 +31,13 @@ img{
 .btn:focus{
     outline: 0.5rem auto #4d90fe;
 }
-.visually-hidden{
+/* .visually-hidden{
     position: absolute;
     height: 1px;
     widows: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
-}
+} */
 
 /* profile css */
 .profile{
@@ -138,6 +138,15 @@ img{
     justify-content: center;
     align-items: center;
 }
+.gallery-item{ 
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+
 @media screen and (max-width: 768px){
     .search{
         display: none;

@@ -37,7 +37,7 @@ const Gallery = () => {
               <Grid className="image-gird" item xs={12} md={4} sm={4}>
                 <Card className="image-card">
                   <CardMedia component="img" image={ele.url} />
-                  <ul>
+                  <ul className="gallery-item">
                     <li className="gallery-item-likes">
                       <span class="visually-hidden">
                         <FavoriteBorderIcon />
